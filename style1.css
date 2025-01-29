@@ -1,0 +1,38 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: color #f4f4f4;;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the image horizontally */
+img {
+    width: 40%;
+    border-radius: 8px;
+    display:block;
+    margin-left:auto;          
+    margin-right: auto;
+    box-shadow: 0 6px 9px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph styling */
+p {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.8;
+}
+
+/* Styling for the quote */
+.quote blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #5d4037;
+    border-left: 4px solid #3e4a89;
+    padding-left: 20px;
+    margin-top: 30px;
+}
